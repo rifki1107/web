@@ -1,0 +1,303 @@
+.kertas {
+    font-size: 15px;
+    display: flex;
+    justify-content:right;
+    text-align: center;
+}
+.kertas span
+{
+    color: #3498db;
+}
+.kanan 
+{
+   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.kanan a
+{
+    text-decoration: none;
+    color: #333;
+    transition: 0.3s;
+}
+.kanan :hover
+{
+    color: #1da1f2;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.atas{
+    box-sizing: border-box;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    height: auto;
+    width: auto;
+    font-family: Georgia, Times, 'Times New Roman', serif, Times, serif;
+    gap: 10px;
+    border-collapse: collapse;
+    padding: 20px 50px;
+    margin: auto;
+    text-align: center;
+    background-color: #3498db;
+    background: linear-gradient(to bottom, rgb(131, 250, 200), #3498db );
+}
+.tengah {
+    text-align: left;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    padding: 10px;
+    height: 500px;
+}
+.foto {
+    text-align: right;
+    display: block;
+    margin-left:auto ;
+    margin-right: auto;
+    width: 200px 300px;
+    border-radius: 15px;
+    float: right;
+}
+.text {
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.text span{
+    color: #3498db;
+    font-size: 30px;
+    font-family:system-ui 'Open Sans' 'Helvetica Neue', sans-serif;
+
+}
+.ini {
+    font-size: 15px;
+    color: rgb(197, 190, 190);
+}
+.awak
+{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    margin: 50px 0px;
+}
+.keahlian {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px 50px;
+    color:black;
+    border-radius: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.keahlian span
+{
+    color:#3498db;
+}
+.projek1 {
+    padding: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    padding: 10px;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all 1s ease ;
+    box-shadow: 0,3 ease;
+    transform-origin: center;
+    overflow: hidden;
+    background-color: white;
+}
+.projek1:hover{
+    transform: scale(1.1);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+.projek2 {
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all 1s ease;
+    box-shadow: 3 ease;
+    overflow: hidden;
+    background-color: white;
+    padding: 20px;
+    width: 250px;
+    display: block;
+    margin: 20px;
+    height: 210px;
+}
+.projek2 img
+{
+    height: 200px;
+}
+.projek2:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+}
+.projek3 {
+    text-align: right;
+    box-shadow: 0 10px 20px rgba(11, 10, 10, 0.2);
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all 1s ease;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 0,5 ease;
+    padding: 10px 50px;
+    margin: 10px 30px;
+    display: inline-block;
+}
+.projek3 img
+{
+    margin-top: 10px;
+}
+.projek3:hover
+{
+    transform: scale(1.1);
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+}
+.projek4 {
+    text-align: left;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    padding: 50px ;
+    margin: 10px;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all 1s ease ;
+    box-shadow: 0,3 ease;
+    transform-origin: center;
+    overflow: hidden;
+    background-color: white;
+}
+.projek4:hover{
+    transform: scale(1.1);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+.projek5 {
+    text-align: left;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    padding: 50px ;
+    margin: 10px;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all 1s ease ;
+    box-shadow: 0,3 ease;
+    transform-origin: center;
+    overflow: hidden;
+    background-color: white;
+    height: 190px;
+    width: 200px;
+}
+.projek5 img 
+{
+    margin-left: 10px;
+}
+.projek5:hover{
+    transform: scale(1.1);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+.ya
+{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.ya span
+{
+    color: #1da1f2;
+}
+.tidak 
+{
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);   
+    padding: 100px;
+    margin: 50px 0;
+    border-radius: 20px;
+}
+  .contact-container {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  .contact-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 15px;
+    width: 200px;
+    padding: 30px 20px;
+    text-align: center;
+    transition: 0.4s ease;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+  }
+
+  .contact-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 35px rgba(0,0,0,0.6);
+  }
+
+  .contact-card i {
+    font-size: 50px;
+    margin-bottom: 15px;
+    transition: 0.3s;
+  }
+
+  .contact-card a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    display: block;
+    margin-top: 5px;
+  }
+  .whatsapp i {
+    color: #25D366;
+    text-shadow: 0 0 15px #25D366;
+  }
+
+  .instagram i {
+    background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 15px rgba(255, 105, 180, 0.6);
+  }
+
+  .email i {
+    color: #1da1f2;
+    text-shadow: 0 0 15px #1da1f2;
+  }
+  .contact-card {
+    opacity: 0;
+    transform: translateY(40px);
+    animation: fadeUp 0.8s forwards;
+  }
+
+  .contact-card:nth-child(1) { animation-delay: 0.2s; }
+  .contact-card:nth-child(2) { animation-delay: 0.4s; }
+  .contact-card:nth-child(3) { animation-delay: 0.6s; }
+
+  @keyframes fadeUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .contact-container span
+  {
+    color: black;
+  }
+.contact-card instagram span
+{
+    color: black;
+}
+.contact-card email span
+{
+    color: black;
+}
